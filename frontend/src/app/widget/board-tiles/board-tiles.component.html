@@ -1,0 +1,15 @@
+
+<div [ngStyle]="{
+    'height': tileHeight + 'px',
+    'width': tileWidth + 'px',
+    'display': 'flex',
+    'position': 'relative'}">
+    <div id="hand"
+        [ngStyle]="{'line-height': tileHeight + 'px'}">
+        {{ hand }}
+    </div>
+    <div id="raise" [ngStyle]="{'width': raiseFrequency + '%'}"></div>
+    <div id="call" [ngStyle]="{'width': callFrequency + '%'}"></div>
+    <div id="fold" [ngStyle]="{'width': foldFrequency + '%'}"></div> 
+</div>
+
