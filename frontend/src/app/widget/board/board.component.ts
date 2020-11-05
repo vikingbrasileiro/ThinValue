@@ -34,8 +34,10 @@ export class BoardComponent implements OnInit {
       board.push( 
         {
           hand: this.handList[index],
-          raiseFrequency: String(0 + Number(index) / 2 ),
-          callFrequency: String(100 - Number(index) / 2 ),
+          // raiseFrequency: String(0 + Number(index) / 2 ),
+          // callFrequency: String(100 - Number(index) / 2 ),
+          raiseFrequency: '100',
+          callFrequency: '0',
           foldFrequency: '0',
           boardRow: 1,
           boardColumn: 1

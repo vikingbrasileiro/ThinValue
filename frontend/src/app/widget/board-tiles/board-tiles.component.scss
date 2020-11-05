@@ -1,10 +1,3 @@
-.tiles {
-    position: relative;
-    display: flex;
-    width: 50px;
-    height: 50px;
-}
-
 #hand {
     position: absolute;
     height: 100%;
@@ -16,22 +9,16 @@
 }
 
 #raise {
-    display: inline-flex;
     height: 100%;
-    width: 50%;
     background-color: #e9967a;
 }
 
  #call {
-    display: inline-flex;
     height: 100%;
-    width: 25%;
     background-color: #8fbc8b;
 }
 
 #fold {
-    display: inline-flex;
     height: 100%;
-    width: 25%;
     background-color: #666666;
 }
